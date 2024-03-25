@@ -1,0 +1,13 @@
+{POST / HTTP/2
+Host: HOST
+Accept: */*
+Content-Length: 104
+Content-Type: application/json
+Github-Public-Key-Identifier: bcb53661c06b4728e59d897fb6165d5c9cda0fd9cdf9d09ead458168deb7518c
+Github-Public-Key-Signature: MEQCIQDaMKqrGnE27S0kgMrEK0eYBmyG0LeZismAEz/BgZyt7AIfXt9fErtRS4XaeSt/AO1RtBY66YcAdjxji410VQV4xg==
+
+[{"source":"commit","token":"some_token","type":"some_type","url":"https://example.com/base-repo-url/"}]
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}
